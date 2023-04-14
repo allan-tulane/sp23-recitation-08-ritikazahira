@@ -5,7 +5,7 @@ test_cases = [('book', 'back'), ('kookaburra', 'kookybird'), ('elephant', 'relev
 alignments = [('book', 'back'), ('kookaburra', 'kookybird-'), ('relev-ant','-elephant'), ('AAAGAATTCA', 'AAA---T-CA')]
 
 def MED(S, T):
-    # TO DO - modify to account for insertions, deletions and substitutions
+    
     if (S == ""):
         return(len(T))
     elif (T == ""):
